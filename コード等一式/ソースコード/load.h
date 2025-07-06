@@ -1,0 +1,14 @@
+#pragma once
+
+#include"main.h"
+#include"manager.h"
+#include"scene.h"
+#include"scene.h"
+
+class Load : public Scene {
+public:
+
+	void Init() override;//âºëzä÷êî
+	void Uninit() override;//âºëzä÷êî
+	void Update() override;
+};
